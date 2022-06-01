@@ -1,0 +1,24 @@
+.navbar-mod {
+  justify-content: space-between;
+  background: rgba(0,0,60,0.2);
+}
+
+.navbar-mod .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-mod .navbar-brand img {
+  width: 40px;
+}
+
+.nav-item img {
+  max-height: 30px;
+}
+
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ */

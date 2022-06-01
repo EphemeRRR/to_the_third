@@ -11,8 +11,14 @@
   </head>
 
   <body>
-    <div class="container">
-      <%= yield %>
+    <%= render 'shared/navbar' %>
+<!--     <div class="navbar row">
+      <ul class='flexbox'>
+        <li class='inline'><div class="home"><a href="/">HOME</a></div></li>
+        <li class='inline'><div class="profil"><a href="/pages/profil">PROFIL</a></div></li>
+      </ul>
     </div>
+ -->
+    <%= yield %>
   </body>
 </html>

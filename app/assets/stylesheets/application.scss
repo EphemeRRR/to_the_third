@@ -1,1 +1,14 @@
 @import "bootstrap/scss/bootstrap";
+@import "components/buttons";
+@import "components/navbar";
+@import "components/banner";
+@import "articles";
+@import "pages";
+
+body {
+  background-color: rgba(0,0,60,0.2);
+}
+
+.container {
+  margin-top: 80px;
+}
