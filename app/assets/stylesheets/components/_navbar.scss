@@ -1,6 +1,7 @@
 .navbar-mod {
   justify-content: space-between;
   background: rgba(0,0,60,0.2);
+  padding: 5px 0;
 }
 
 .navbar-mod .navbar-collapse {
@@ -8,11 +9,20 @@
 }
 
 .navbar-mod .navbar-brand img {
-  width: 40px;
+  max-height: 40px;
+  border-radius: 5px;
 }
 
 .nav-item img {
-  max-height: 30px;
+  max-height: 40px;
+  border-radius: 50%;
+}
+
+.nav-link {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2)
 }
 
 /* .sticky {
